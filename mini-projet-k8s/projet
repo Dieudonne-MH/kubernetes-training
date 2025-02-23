@@ -1,0 +1,11 @@
+Mini-projet : Déployez Wordpress à l'aide de manifests (et non par helm)
+
+•Déployez WordPress en suivant les étapes suivantes
+•Créez un deployment MySQL avec un seul replicat
+•Créez un service de type clusterIP pour exposer vos pods MySQL
+•Créez un deployment WordPress avec les bonnes variables d'environnement pour se connecter à la base de données MySQL
+• Votre deployment devra stocker les données de WordPress sur un volume monté dans le /data de votre node
+Créez un service de type nodeport pour exposer le frontend WordPress
+• Nous vous conseillons d'utiliser les manifests pour réaliser cet exercice
+• Grâce à ce travail vous comprendrez mieux comment les fichiers contenus dans le chart WordPress
+• A la fin de votre travail, poussez vos manifests sur GitHub et envoyez-nous le lien de votre repo à eazytrainingfr@gmail.com et nous vous dirons si votre solution respecte les bonnes pratiques et si votre solution bonne. Nous vous proposerons aussi notre solution
